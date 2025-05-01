@@ -25,17 +25,17 @@ APP_ID = int(os.environ.get("APP_ID", "9513330"))
 API_HASH = os.environ.get("API_HASH", "8c9bef60c7ccd6e9692367444d329f2b")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002298431361"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002496972546"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7201053234"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7313585619"))
 
 #Port
 PORT = os.environ.get("PORT", "8585")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mahalikchandan857:cCwfn9mn4SSrQT5I@cluster0.t0i7e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
@@ -45,7 +45,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "indiaearnx.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "3ea21027089b1486b9bca591ff74dda8b033091d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/akmoviefile0/18") # shortxlink ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
